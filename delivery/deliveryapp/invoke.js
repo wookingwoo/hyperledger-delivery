@@ -42,7 +42,7 @@ async function main() {
         // Submit the specified transaction.
         // createCar transaction - requires 5 argument, ex: ('createCar', 'CAR12', 'Honda', 'Accord', 'Black', 'Tom')
         // changeCarOwner transaction - requires 2 args , ex: ('changeCarOwner', 'CAR12', 'Dave')
-        await contract.submitTransaction('AddNewDeliverer', '2023', 'Trudy'); // 인자: 'AddNewDeliverer', 날짜, 이름
+        await contract.submitTransaction('AddNewDeliverer', '2023', 'Trudy'); // 인자: 'AddNewDeliverer', 시리얼넘버, 배달자이름
         console.log('Transaction has been submitted');
 
         // Disconnect from the gateway.
