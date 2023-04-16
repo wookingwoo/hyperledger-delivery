@@ -1,0 +1,8 @@
+# id
+deliveryapp/wallet/
+
+# modules
+deliveryapp/node_modules/
+
+# Mac files
+.DS_Store
