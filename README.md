@@ -110,3 +110,9 @@ node deliverytest.js
 ```
 deliverymain.html
 ```
+
+## 참조
+
+fabric-sdk-node 2.2 버전 참조
+
+<https://hyperledger.github.io/fabric-sdk-node/>
