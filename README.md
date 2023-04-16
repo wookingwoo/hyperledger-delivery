@@ -1,3 +1,17 @@
+## Launch the network
+
+``` bash
+cd fabric-samples/fabcar
+./startFabric.sh javascript
+```
+
+docker container 확인
+
+``` bash
+docker container ls
+docker ps
+```
+
 ## install packages
 
 ``` bash
@@ -8,7 +22,7 @@ npm install
 ## 배달자 등록, 조회
 
 ### 실행 경로
-    
+
 ``` bash
 cd delivery/deliveryapp
 ```
@@ -47,6 +61,7 @@ node deliverytest.js
 ```
 
 ### 웹 브라우저에서 접속
+
 ```
 deliverymain.html
 ```
